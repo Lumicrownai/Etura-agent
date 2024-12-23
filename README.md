@@ -1,4 +1,4 @@
-# <img src="assets/images/logo.png" alt="Lumi Crown logo" width="40"/> Etura
+# <img src="assets/images/logo.png" alt="LumiCrown logo" width="40"/> Etura
 
 <div align="center">
 
