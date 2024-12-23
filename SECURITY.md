@@ -7,7 +7,7 @@
 
 Vulnerabilities can be reported by emailing core members:
 
-- denser-org [support@denser.ai](mailto:support@denser.ai)
+- denser-org [support@denser.ai](mailto:support@lumicrown.ai)
 
 Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
 
