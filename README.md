@@ -55,8 +55,8 @@ poetry add git+https://github.com/etura-org/etura.git#main
 
 ## 📃 Documentation
 
-The official documentation is hosted on [agent.etura.ai](https://agent.etura.ai).
-Click [here](https://agent.etura.ai/docs/quick-start) to get started.
+The official documentation is hosted on [agent.etura.ai](https://www.lumicrowntech.com/).
+Click [here](https://www.lumicrowntech.com/blank) to get started.
 
 ## 👨🏼‍💻 Development
 
