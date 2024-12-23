@@ -7,7 +7,6 @@
 [![Code style: ruff](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/astral-sh/ruff)
 [![Security: bandit](https://img.shields.io/badge/security-bandit-green.svg)](https://github.com/PyCQA/bandit)
 [![Semantic Versions](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--versions-e10079.svg)](https://github.com/etura-org/etura/releases)
-
 ![Coverage Report](assets/images/coverage.svg)
 
 An enterprise-grade AI agent designed to streamline AI integration into your applications, ensuring cutting-edge accuracy.
