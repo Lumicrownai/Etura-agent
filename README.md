@@ -1,4 +1,4 @@
-# <img src="assets/images/logo.png" alt="etura logo" width="40"/> etura Retriever
+# <img src="assets/images/logo.png" alt="etura logo" width="40"/> Etura AI Agent
 
 <div align="center">
 
