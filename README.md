@@ -20,7 +20,7 @@ An enterprise-grade AI retriever designed to streamline AI integration into your
 
 ## 📝 Description
 
-Denser Retriever combines multiple search technologies into a single platform. It utilizes **gradient boosting (
+Etura combines multiple search technologies into a single platform. It utilizes **gradient boosting (
 xgboost)** machine learning technique to combine:
 
 - **Keyword-based searches** that focus on fetching precisely what the query mentions.
@@ -31,19 +31,19 @@ xgboost)** machine learning technique to combine:
 
 ![mteb_ndcg_plot](mteb_ndcg_plot.png)
 
-* **Check out Denser Retriever experiments using the Anthropic Contextual Retrieval dataset at [here](https://github.com/denser-org/denser-retriever/tree/main/experiments/data/contextual-embeddings)**.
+* **Check out Etura experiments using the Anthropic Contextual Retrieval dataset at [here](https://github.com/denser-org/denser-retriever/tree/main/experiments/data/contextual-embeddings)**.
 ## 🚀 Features
 
-The initial release of Denser Retriever provides the following features.
+The initial release of Etura provides the following features.
 
 - Supporting heterogeneous retrievers such as **keyword search**, **vector search**, and **ML model reranking**
 - Leveraging **xgboost** ML technique to effectively combine heterogeneous retrievers
 - **State-of-the-art accuracy** on [MTEB](https://github.com/embeddings-benchmark/mteb) Retrieval benchmarking
-- Demonstrating how to use Denser retriever to power an **end-to-end applications** such as chatbot and semantic search
+- Demonstrating how to use Etura to power an **end-to-end applications** such as chatbot and semantic search
 
 ## 📦 Installation
 
-We recommend installing Python via [Anaconda](https://www.anaconda.com/download), as we have received feedback about issues with Numpy installation when using the installer from https://www.python.org/downloads/. We are working on providing a solution to this problem. To install Denser Retriever, you can run:
+We recommend installing Python via [Anaconda](https://www.anaconda.com/download), as we have received feedback about issues with Numpy installation when using the installer from https://www.python.org/downloads/. We are working on providing a solution to this problem. To install Etura, you can run:
 
 ### Pip
 
@@ -64,7 +64,7 @@ Click [here](https://retriever.denser.ai/docs/quick-start) to get started.
 
 ## 👨🏼‍💻 Development
 
-You can start developing Denser Retriever on your local machine.
+You can start developing Etura on your local machine.
 
 See [DEVELOPMENT.md](DEVELOPMENT.md) for more details.
 
