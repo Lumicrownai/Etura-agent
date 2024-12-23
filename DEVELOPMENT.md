@@ -13,18 +13,18 @@ pipx install poetry
 Then you can run the client using the following command:
 
 ```bash
-denser-retriever --help
+etura --help
 ```
 
 or with `Poetry`:
 
 ```bash
-poetry run denser-retriever --help
+poetry run etura --help
 ```
 
 ### Makefile usage
 
-[`Makefile`](https://github.com/denser-org/denser-retriever/blob/main/Makefile) contains a lot of functions for faster development.
+[`Makefile`](https://github.com/etura-org/etura/blob/main/Makefile) contains a lot of functions for faster development.
 
 
 <details>
@@ -184,7 +184,7 @@ make cleanup
 
 ## 📈 Releases
 
-You can see the list of available releases on the [GitHub Releases](https://github.com/denser-org/denser-retriever/releases) page.
+You can see the list of available releases on the [GitHub Releases](https://github.com/etura-org/etura/releases) page.
 
 We follow [Semantic Versions](https://semver.org/) specification.
 
@@ -201,6 +201,6 @@ We use [`Release Drafter`](https://github.com/marketplace/actions/release-drafte
 |            `documentation`            |    📝 Documentation     |
 |            `dependencies`             | ⬆️ Dependencies updates |
 
-You can update it in [`release-drafter.yml`](https://github.com/denser-org/denser-retriever/blob/main/.github/release-drafter.yml).
+You can update it in [`release-drafter.yml`](https://github.com/etura-org/etura/blob/main/.github/release-drafter.yml).
 
 GitHub creates the `bug`, `enhancement`, and `documentation` labels for you. Dependabot creates the `dependencies` label. Create the remaining labels on the Issues tab of your GitHub repository, when you need them.
