@@ -10,13 +10,13 @@
 
 ![Coverage Report](assets/images/coverage.svg)
 
-An enterprise-grade AI retriever designed to streamline AI integration into your applications, ensuring cutting-edge accuracy.
+An enterprise-grade AI agent designed to streamline AI integration into your applications, ensuring cutting-edge accuracy.
 
 </div>
 
 ## 📝 Description
 
-etura Retriever combines multiple search technologies into a single platform. It utilizes **gradient boosting (
+etura agent combines multiple search technologies into a single platform. It utilizes **gradient boosting (
 xgboost)** machine learning technique to combine:
 
 - **Keyword-based searches** that focus on fetching precisely what the query mentions.
@@ -27,19 +27,19 @@ xgboost)** machine learning technique to combine:
 
 ![mteb_ndcg_plot](mteb_ndcg_plot.png)
 
-* **Check out etura Retriever experiments using the Anthropic Contextual Retrieval dataset at [here](https://github.com/Lumicrownai/Etura-agent/tree/master/experiments/data/contextual-embeddings)**.
+* **Check out etura agent experiments using the Anthropic Contextual Retrieval dataset at [here](https://github.com/Lumicrownai/Etura-agent/tree/master/experiments/data/contextual-embeddings)**.
 ## 🚀 Features
 
-The initial release of etura Retriever provides the following features.
+The initial release of etura agent provides the following features.
 
-- Supporting heterogeneous retrievers such as **keyword search**, **vector search**, and **ML model reranking**
-- Leveraging **xgboost** ML technique to effectively combine heterogeneous retrievers
+- Supporting heterogeneous agents such as **keyword search**, **vector search**, and **ML model reranking**
+- Leveraging **xgboost** ML technique to effectively combine heterogeneous agents
 - **State-of-the-art accuracy** on [MTEB](https://github.com/embeddings-benchmark/mteb) Retrieval benchmarking
-- Demonstrating how to use etura retriever to power an **end-to-end applications** such as chatbot and semantic search
+- Demonstrating how to use etura agent to power an **end-to-end applications** such as chatbot and semantic search
 
 ## 📦 Installation
 
-We recommend installing Python via [Anaconda](https://www.anaconda.com/download), as we have received feedback about issues with Numpy installation when using the installer from https://www.python.org/downloads/. We are working on providing a solution to this problem. To install etura Retriever, you can run:
+We recommend installing Python via [Anaconda](https://www.anaconda.com/download), as we have received feedback about issues with Numpy installation when using the installer from https://www.python.org/downloads/. We are working on providing a solution to this problem. To install etura agent, you can run:
 
 ### Pip
 
@@ -55,12 +55,12 @@ poetry add git+https://github.com/etura-org/etura.git#main
 
 ## 📃 Documentation
 
-The official documentation is hosted on [retriever.etura.ai](https://retriever.etura.ai).
-Click [here](https://retriever.etura.ai/docs/quick-start) to get started.
+The official documentation is hosted on [agent.etura.ai](https://agent.etura.ai).
+Click [here](https://agent.etura.ai/docs/quick-start) to get started.
 
 ## 👨🏼‍💻 Development
 
-You can start developing etura Retriever on your local machine.
+You can start developing etura agent on your local machine.
 
 See [DEVELOPMENT.md](DEVELOPMENT.md) for more details.
 
@@ -76,7 +76,7 @@ See [LICENSE](https://github.com/Lumicrownai/Etura-agent/blob/master/LICENSE) fo
 ```bibtex
 @misc{etura,
   author = {etura-org},
-  title = {An enterprise-grade AI retriever designed to streamline AI integration into your applications, ensuring cutting-edge accuracy.},
+  title = {An enterprise-grade AI agent designed to streamline AI integration into your applications, ensuring cutting-edge accuracy.},
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub repository},
