@@ -1,4 +1,4 @@
-# <img src="assets/images/logo.png" alt="denser logo" width="40"/> Denser Retriever
+# <img src="assets/images/logo.png" alt="denser logo" width="40"/> Etura
 
 <div align="center">
 
