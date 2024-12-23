@@ -69,7 +69,7 @@ See [DEVELOPMENT.md](DEVELOPMENT.md) for more details.
 [![License](https://img.shields.io/github/license/denser-org/etura)](https://github.com/Lumicrownai/Etura-agent/blob/master/LICENSE)
 
 This project is licensed under the terms of the `MIT` license.
-See [LICENSE](https://github.com/denser-org/denser-retriever/blob/main/LICENSE) for more details.
+See [LICENSE](https://github.com/Lumicrownai/Etura-agent/blob/master/LICENSE) for more details.
 
 ## 📃 Citation
 
