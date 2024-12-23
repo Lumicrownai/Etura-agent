@@ -70,7 +70,7 @@ See [DEVELOPMENT.md](DEVELOPMENT.md) for more details.
 
 ## 🛡 License
 
-[![License](https://img.shields.io/github/license/denser-org/denser-retriever)](https://github.com/etura-org/etura/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/denser-org/denser-retriever)](https://github.com/Lumicrownai/Etura-agent/blob/master/LICENSE)
 
 This project is licensed under the terms of the `MIT` license.
 See [LICENSE](https://github.com/etura-org/etura/blob/main/LICENSE) for more details.
