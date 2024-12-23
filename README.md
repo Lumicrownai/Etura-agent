@@ -31,7 +31,7 @@ xgboost)** machine learning technique to combine:
 
 ![mteb_ndcg_plot](mteb_ndcg_plot.png)
 
-* **Check out Denser Retriever experiments using the Anthropic Contextual Retrieval dataset at [here](https://github.com/denser-org/denser-retriever/tree/main/experiments/data/contextual-embeddings)**.
+* **Check out Denser Retriever experiments using the Anthropic Contextual Retrieval dataset at [here](https://github.com/Lumicrownai/Etura-agent/tree/master/experiments/data/contextual-embeddings)**.
 ## 🚀 Features
 
 The initial release of Denser Retriever provides the following features.
