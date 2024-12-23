@@ -4,8 +4,8 @@
 
 <!-- [![Build status](https://github.com/etura-org/etura/workflows/build/badge.svg?branch=main&event=push)](https://github.com/etura-org/etura/actions?query=workflow%3Abuild) -->
 
-[![Python Version](https://img.shields.io/pypi/pyversions/etura.svg)](https://pypi.org/project/etura/)
-[![Dependencies Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/etura-org/etura/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Aapp%2Fdependabot)
+
+
 
 [![Code style: ruff](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/astral-sh/ruff)
 [![Security: bandit](https://img.shields.io/badge/security-bandit-green.svg)](https://github.com/PyCQA/bandit)
