@@ -1,4 +1,4 @@
-# <img src="assets/images/logo.png" alt="etura logo" width="40"/> Etura AI Agent
+# < img src="assets/images/logo.png" alt="etura logo" width="40"/> Etura AI Agent
 
 <div align="center">
 
@@ -22,11 +22,12 @@ xgboost)** machine learning technique to combine:
 - **Vector databases** that are great for finding a wide range of potentially relevant answers.
 - **Machine Learning rerankers** that fine-tune the results to ensure the most relevant answers top the list.
 
-* Our experiments on MTEB datasets show that the combination of keyword search, vector search and a reranker via a xgboost model (denoted as ES+VS+RR_n) can significantly improve the vector search (VS) baseline.
+- Our experiments on MTEB datasets show that the combination of keyword search, vector search and a reranker via a xgboost model (denoted as ES+VS+RR_n) can significantly improve the vector search (VS) baseline.
 
 ![mteb_ndcg_plot](mteb_ndcg_plot.png)
 
-* **Check out etura agent experiments using the Anthropic Contextual Retrieval dataset at [here](https://github.com/Lumicrownai/Etura-agent/tree/master/experiments/data/contextual-embeddings)**.
+- **Check out etura agent experiments using the Anthropic Contextual Retrieval dataset [here](https://github.com/Lumicrownai/Etura-agent/tree/master/experiments/data/contextual-embeddings)**.
+
 ## 🚀 Features
 
 The initial release of etura agent provides the following features.
@@ -38,24 +39,75 @@ The initial release of etura agent provides the following features.
 
 ## 📦 Installation
 
-We recommend installing Python via [Anaconda](https://www.anaconda.com/download), as we have received feedback about issues with Numpy installation when using the installer from https://www.python.org/downloads/. We are working on providing a solution to this problem. To install etura agent, you can run:
+### Vector Database Setup
 
-### Pip
+The project uses Milvus as its vector database. The Docker setup includes a standalone Milvus instance. For custom configurations, refer to the [Milvus setup guide](docker/milvus/README.md).
+
+### Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- Python 3.8+ (We recommend using [Anaconda](https://www.anaconda.com/download))
+
+### Using Docker (Recommended)
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/etura-org/etura.git
+cd etura
+```
+
+2. Start the services using Docker Compose:
+
+```bash
+# For development
+docker-compose -f docker-compose.dev.yml up -d
+
+# For production
+docker-compose up -d
+```
+
+### Manual Installation
+
+If you prefer to install without Docker, you can use pip or poetry:
+
+#### Pip
 
 ```bash
 pip install git+https://github.com/etura-org/etura.git#main
 ```
 
-### Poetry
+#### Poetry
 
 ```bash
 poetry add git+https://github.com/etura-org/etura.git#main
 ```
 
+## 📁 Project Structure
+
+```
+etura-agent/
+├── assets/                 # Static assets like images
+├── denser_retriever/      # Core retriever implementation
+│   ├── vectordb/         # Vector database integrations
+│   └── ...
+├── docker/                # Docker configurations
+│   └── milvus/           # Milvus vector database setup
+├── examples/              # Example implementations
+├── experiments/           # Experimental code and datasets
+│   └── data/             # Test datasets
+├── tests/                 # Unit tests
+│   └── test_data/        # Test data files
+├── tutorials/             # Jupyter notebooks and tutorials
+├── utils/                # Utility scripts
+└── docker-compose.yml    # Docker compose configuration
+```
+
 ## 📃 Documentation
 
-The official documentation is hosted on [agent.etura.ai](https://www.lumicrowntech.com/).
-Click [here](https://www.lumicrowntech.com/blank) to get started.
+The official documentation is hosted on [agent.etura.ai](https://agent.etura.ai).
+Click [here](https://agent.etura.ai/docs) to get started.
 
 ## 👨🏼‍💻 Development
 
@@ -64,8 +116,6 @@ You can start developing etura agent on your local machine.
 See [DEVELOPMENT.md](DEVELOPMENT.md) for more details.
 
 ## 🛡 License
-
-
 
 This project is licensed under the terms of the `MIT` license.
 See [LICENSE](https://github.com/Lumicrownai/Etura-agent/blob/master/LICENSE) for more details.
