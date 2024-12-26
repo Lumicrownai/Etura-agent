@@ -1,4 +1,4 @@
-# < img src="assets/images/Logo.png" alt="etura logo" width="40"/> Etura AI Agent
+
 
 <div align="center">
 
